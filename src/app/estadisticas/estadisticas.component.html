@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion Estadísticas</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="estadisticas.component.css">
+</head>
+<!--ETIQUETA DE CONTENIDO O DE CUERPO-->
+
+<body>
+
+    <div class="contenedor">
+        <div class="input_busqueda">
+            <label for="mensaje_busqueda"> Generar por: </label>
+            <select name="tipo_busqueda" [value]="0">
+                <option value="facultad"> Facultad</option>
+                <option value="programa"> Programa</option>
+                <option value="carrera"> Carrera</option>
+                <option value="estudiante"> Estudiante</option>
+            </select>
+        </div>
+        <br>
+        <div class="tabla">
+            <table>
+                <caption class="caption">Tabla de resultados estadísticos</caption>
+                <tr >
+                    <th>Programa</th>
+                    <th>resultado</th>
+                </tr>
+                <tr>
+                    <td>Ing sistemas</td>
+                    <td>49</td>
+                </tr>
+                <tr>
+                    <td>contaduría</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Ing sivil</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>Ing automática</td>
+                    <td>37</td>
+                </tr>
+            </table>
+        </div>
+        <div class="estadisticas">
+        </div>
+    </div>
+
+</body>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Gestion Escenarios Formulario Crear</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+	<link rel="stylesheet" href="form-crear-gestion-escenario.component.css">
+</head>
+    <body>
+        <br>
+        <form action="?c=Producto&a=Guardar" method="POST">
+            <div>
+                <input type="text" name="nombre" value="" placeholder="Nombre de escenario" required>
+            </div>
+            <div>
+                <input type="file" name="imagen" value="" placeholder="Cargar la imagen" required>
+            </div>
+            <div class="descripcion">
+                <textarea rows="8" cols="50"  placeholder="Descripcion" name="descripcion" required></textarea>
+            </div>
+            <div>
+                <button id="btnGuardar">GUARDAR</button>
+                <button onclick="location.href='gestionar'">CANCELAR</button>
+            </div>
+        </form>
+        
+    </body>
+</html>

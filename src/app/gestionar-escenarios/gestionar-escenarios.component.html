@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion Escenarios</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="gestionar-escenarios.component.css">
+</head>
+<!--ETIQUETA DE CONTENIDO O DE CUERPO-->
+
+<body>
+  <!--Creacion de Tabla-->
+  <div class="contenedor">
+    <a id="nuevoEscenario" href="formCrearGestEsce"> NUEVO ESCENARIO</a>
+    <table class="tabla">
+      <!--Divisiones-->
+      <caption>Gestionar Escenarios</caption>
+      <thead>
+        <tr class="filaPrincipal">
+          <th>Nombre</th>
+          <th>Descripcion</th>
+          <th>Imagen</th>
+          <th>Estado</th>
+          <th>Actualizar</th>
+        </tr>
+      </thead>
+      <!--Contenido-->
+      <tbody>
+        <tr>
+          <td>Cancha 1</td>
+          <td>cancha sintética 1</td>
+          <td><img src="../assets/anacona.jpg" alt=""></td>
+          <td>habilitado</td>
+          <td>
+            <a class="acciones" id="editar" href="formEditararGestEsce"> Editar</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
